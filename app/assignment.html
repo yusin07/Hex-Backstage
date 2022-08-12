@@ -1,0 +1,295 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="d-flex flex-column flex-grow-1 vh-100">
+    <header class="d-flex justify-content-between align-items-center p-32">
+        <div class="d-flex align-items-center">
+            <h1 class="fs-4 fw-bold mb-0 text-dark">Assignment</h1>
+            <div class="dropdown ms-5">
+                <button class="btn btn-success bg-transparent border-0 p-0 text-dark fw-bold d-flex align-items-center"
+                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    All Courses<span class="material-icons text-success ms-2">expand_more</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">item1</a></li>
+                    <li><a class="dropdown-item" href="#">item2</a></li>
+                    <li><a class="dropdown-item" href="#">item3</a></li>
+                </ul>
+            </div>
+        </div>
+        <ul class="nav align-items-center gap-4 mb-0">
+            <a href="#"><span class="material-icons d-block text-dark">search</span></a>
+            <a href="#"><span class="material-icons d-block text-dark">notifications_active</span></a>
+        </ul>
+    </header>
+    <div class="d-flex gap-3 px-32 mt-2 overflow-hidden">
+        <div style="min-width:320px" class="d-flex flex-column w-25">
+            <div class="dropdown">
+                <button class="btn btn-success bg-transparent border-0 p-0 text-dark fw-bold d-flex align-items-center"
+                    type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                    All(9)<span class="material-icons text-success ms-2">expand_more</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                    <li><a class="dropdown-item" href="#">item1</a></li>
+                    <li><a class="dropdown-item" href="#">item2</a></li>
+                    <li><a class="dropdown-item" href="#">item3</a></li>
+                </ul>
+            </div>
+            <div class="list-group mt-1 pb-4 overflow-auto">
+                <button type="button"
+                    class="list-group-item list-group-item-action d-flex justify-content-between p-12 bg-gray-100"
+                    aria-current="true">
+                    <div class="d-flex flex-column">
+                        <span class="fs-8">Chapter Assignment 2</span>
+                        <span class="fw-bold mt-1">Please check this file…</span>
+                    </div>
+                    <div class="d-flex flex-column text-end">
+                        <span class="fs-8">4 hrs ago</span>
+                        <span class="fs-8 text-secondary mt-2">Emily Wang</span>
+                    </div>
+                </button>
+                <button type="button"
+                    class="list-group-item list-group-item-action d-flex justify-content-between p-12">
+                    <div class="d-flex flex-column">
+                        <span class="fs-8">Chapter Assignment 1</span>
+                        <span class="fw-bold mt-1">My Homework</span>
+                    </div>
+                    <div class="d-flex flex-column text-end">
+                        <span class="fs-8">12 hrs ago</span>
+                        <span class="fs-8 text-secondary mt-2">David Xu</span>
+                    </div>
+                </button>
+                <button type="button"
+                    class="list-group-item list-group-item-action d-flex justify-content-between p-12">
+                    <div class="d-flex flex-column">
+                        <span class="fs-8">Final Assignment</span>
+                        <span class="fw-bold mt-1">Have a problem with this…</span>
+                    </div>
+                    <div class="d-flex flex-column text-end">
+                        <span class="fs-8">18 hrs ago</span>
+                        <span class="fs-8 text-secondary mt-2">Tony Wei</span>
+                    </div>
+                </button>
+                <button type="button"
+                    class="list-group-item list-group-item-action d-flex justify-content-between p-12">
+                    <div class="d-flex flex-column">
+                        <span class="fs-8">Final Assignment</span>
+                        <span class="fw-bold mt-1">Did I do it right?</span>
+                    </div>
+                    <div class="d-flex flex-column text-end">
+                        <span class="fs-8">19 hrs ago</span>
+                        <span class="fs-8 text-secondary mt-2">Christina Lin</span>
+                    </div>
+                </button>
+                <button type="button"
+                    class="list-group-item list-group-item-action d-flex justify-content-between p-12">
+                    <div class="d-flex flex-column">
+                        <span class="fs-8">Final Assignment</span>
+                        <span class="fw-bold mt-1">Did I do it right?</span>
+                    </div>
+                    <div class="d-flex flex-column text-end">
+                        <span class="fs-8">19 hrs ago</span>
+                        <span class="fs-8 text-secondary mt-2">Christina Lin</span>
+                    </div>
+                </button>
+                <button type="button"
+                    class="list-group-item list-group-item-action d-flex justify-content-between p-12">
+                    <div class="d-flex flex-column">
+                        <span class="fs-8">Final Assignment</span>
+                        <span class="fw-bold mt-1">Did I do it right?</span>
+                    </div>
+                    <div class="d-flex flex-column text-end">
+                        <span class="fs-8">19 hrs ago</span>
+                        <span class="fs-8 text-secondary mt-2">Christina Lin</span>
+                    </div>
+                </button>
+                <button type="button"
+                    class="list-group-item list-group-item-action d-flex justify-content-between p-12">
+                    <div class="d-flex flex-column">
+                        <span class="fs-8">Final Assignment</span>
+                        <span class="fw-bold mt-1">Did I do it right?</span>
+                    </div>
+                    <div class="d-flex flex-column text-end">
+                        <span class="fs-8">19 hrs ago</span>
+                        <span class="fs-8 text-secondary mt-2">Christina Lin</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="flex-grow-1 d-flex flex-column w-75" style="min-width:584px">
+            <div class="mb-1 text-end">
+                <span class="fs-8 text-secondary">3 comments</span>
+            </div>
+            <ul class="list-group overflow-hidden mb-4">
+                <li class="list-group-item py-12 bg-gray-100 d-flex justify-content-between align-items-center">
+                    <div class="d-flex flex-column">
+                        <span class="fs-8 text-secondary">Chapter Assignment 2 / HTML&CSS</span>
+                        <span class="fw-bold mt-1">Please check this file for me, thanks!</span>
+                    </div>
+                    <div class="dropdown ms-5">
+                        <button
+                            class="btn btn-success bg-transparent border-0 p-0 text-dark fw-bold d-flex align-items-center"
+                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="material-icons">more_vert</span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">edit</a></li>
+                            <li><a class="dropdown-item" href="#">delete</a></li>
+                            <li><a class="dropdown-item" href="#">share</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-group-item py-3 ps-3 pe-32 overflow-auto">
+                    <div>
+                        <div class="d-flex align-items-center">
+                            <img src="https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=2134&q=80"
+                                alt="avatar" class="avatar rounded-circle">
+                            <div class="d-flex flex-column ms-2 flex-grow-1">
+                                <span class="fw-bold">Emily Wang</span>
+                                <span class="fs-8 text-secondary">10:38 AM (7 hours ago)</span>
+                            </div>
+                        </div>
+                        <div class="ms-5">
+                            <p class="fs-7 mt-3">Hi Teacher, the attached file is my homework of chapter 2. And here
+                                comes a question:
+                                Why in the following code the height of the <span
+                                    class="text-success roboto-mono bg-gray-100">div</span> is bigger than the height of
+                                the <span class="text-success roboto-mono bg-gray-100">img</span> ? There is a gap below
+                                the image, but it
+                                doesn’t seems to be a padding/margin.<br>What is the gap or extra space below image?</p>
+                            <button
+                                class="btn btn-outline-secondary bg-gray-100 text-dark fw-bold d-flex align-items-center"><span
+                                    class="material-icons me-2">attach_file</span>HW-2-David.zip</button>
+                        </div>
+                    </div>
+                    <hr class="ms-5">
+                    <div>
+                        <div class="d-flex align-items-center">
+                            <img src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=2000&q=80"
+                                alt="avatar" class="avatar rounded-circle">
+                            <div class="d-flex flex-column ms-2 flex-grow-1">
+                                <span class="fw-bold">Andy Chen (You)</span>
+                                <span class="fs-8 text-secondary">13:24 PM (4 hours ago)</span>
+                            </div>
+                            <ul class="nav align-items-center gap-4 ">
+                                <li>
+                                    <button class="btn btn-success bg-transparent border-0 text-dark p-0"><span
+                                            class="material-icons d-block">star_outline</span></button>
+                                </li>
+                                <li>
+                                    <button class="btn btn-success bg-transparent border-0 text-dark p-0"><span
+                                            class="material-icons d-block">edit</span></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ms-5">
+                            <p class="fs-7 mt-3">Hi David, by default, an image is rendered inline, like a letter so it
+                                sits on the
+                                same line that a, b, c and d sit on. There is space below that line for the descenders
+                                you find on
+                                letters like g, j, p and q. <br><br>You can:<br><br>• adjust the
+                                <span>vertical-align</span>> of the
+                                image to position it elsewhere (e.g. the <span
+                                    class="text-success roboto-mono bg-gray-100">middle</span> ) or<br>• change the
+                                <span class="text-success roboto-mono bg-gray-100">display</span> so it isn’t inline.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="ms-5">
+                    <div>
+                        <div class="d-flex align-items-center">
+                            <img src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=2000&q=80"
+                                alt="avatar" class="avatar rounded-circle">
+                            <div class="d-flex flex-column ms-2 flex-grow-1">
+                                <span class="fw-bold">Andy Chen (You)</span>
+                                <span class="fs-8 text-secondary">15:37 PM (2 hours ago)</span>
+                            </div>
+                            <ul class="nav align-items-center gap-4">
+                                <li>
+                                    <button class="btn btn-success bg-transparent border-0 text-dark p-0"><span
+                                            class="material-icons d-block">star_outline</span></button>
+                                </li>
+                                <li>
+                                    <button class="btn btn-success bg-transparent border-0 text-dark p-0"><span
+                                            class="material-icons d-block">edit</span></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ms-5">
+                            <p class="fs-7 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                                facilis veniam
+                                corporis ipsum at dolor, numquam porro! Maxime cumque dolor quis amet neque numquam vel
+                                voluptatum
+                                similique, quasi veritatis expedita ad saepe officia perspiciatis aut voluptates odit
+                                dolore sit
+                                corporis voluptate. Corporis nemo nisi voluptatibus. Labore doloremque quaerat omnis
+                                totam?</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item p-0">
+                    <ul class="d-flex gap-4 py-3 px-4 align-items-center list-unstyled bg-gray-100">
+                        <li>
+                            <div class="dropdown">
+                                <button
+                                    class="btn btn-success bg-transparent border-0 p-0 text-dark fw-bold d-flex align-items-center"
+                                    type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Body Text<span class="material-icons ms-2">arrow_drop_down</span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item" href="#">H1</a></li>
+                                    <li><a class="dropdown-item" href="#">H2</a></li>
+                                    <li><a class="dropdown-item" href="#">H3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <button class="btn btn-success bg-transparent border-0 text-dark p-0"><span
+                                    class="material-icons d-block">format_bold</span></button>
+                        </li>
+                        <li>
+                            <button class="btn btn-success bg-transparent border-0 text-dark p-0"><span
+                                    class="material-icons d-block">format_italic</span></button>
+                        </li>
+                        <li>
+                            <button class="btn btn-success bg-transparent border-0 text-dark p-0"><span
+                                    class="material-icons d-block">format_list_bulleted</span></button>
+                        </li>
+                        <li>
+                            <button class="btn btn-success bg-transparent border-0 text-dark p-0"><span
+                                    class="material-icons d-block">format_list_numbered</span></button>
+                        </li>
+                        <li>
+                            <button class="btn btn-success bg-transparent border-0 text-dark p-0"><span
+                                    class="material-icons d-block">image</span></button>
+                        </li>
+                        <li>
+                            <button class="btn btn-success bg-transparent border-0 text-dark p-0"><span
+                                    class="material-icons d-block">link</span></button>
+                        </li>
+                        <li>
+                            <button class="btn btn-success bg-transparent border-0 text-dark p-0"><span
+                                    class="material-icons d-block">code</span></button>
+                        </li>
+                    </ul>
+                    <div class="py-3 px-4">
+                        <textarea class="form-control border-0 btn-success bg-transparent" rows="7"
+                            placeholder="Reply an answer…"></textarea>
+                        <ul class="nav gap-3 mt-3 justify-content-end">
+                            <li>
+                                <a class="btn btn-outline-success px-32" href="./index.html">Cancel</a>
+                            </li>
+                            <li>
+                                <button class="btn btn-success px-32">Reply</button>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
